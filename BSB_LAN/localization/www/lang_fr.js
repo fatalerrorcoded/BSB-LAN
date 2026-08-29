@@ -18,7 +18,7 @@ UIStrings["MENU_TEXT_ON"] = "Activé";
 UIStrings["MENU_TEXT_OFF"] = "Désactivé";
 UIStrings["MENU_TEXT_NOQ"] = "La liste des paramètres spécifiques à l'appareil n'est prise en charge que sur les systèmes basés sur BSB et LPB.<BR>Pour les appareils PPS, vous pouvez utiliser directement la catégorie correspondante.\r\n";
 UIStrings["MENU_TEXT_QNC"] = "BSB-LAN ne peut pas se connecter au système de chauffage. Veuillez vous assurer que l'adaptateur est connecté au chauffage et que le chauffage est allumé. Redémarrez ensuite BSB-LAN pour vous connecter au chauffage.";
-UIStrings["MENU_TEXT_QIN"] = "Afin de créer une liste de paramètres spécifiques à l'appareil, veuillez cliquer sur 'Télécharger' ci-dessous.<BR>Si plusieurs contrôleurs sont connectés via LPB, vous <B>devez</B> connecter BSB-LAN via LPB, aussi, afin d'obtenir tous les paramètres de tous les appareils connectés !<BR>La création de ce fichier peut prendre plusieurs minutes et peut sembler caler surtout au début, <B>soyez patient !</B> \r\n <BR>Ensuite, indiquez-nous dans quelle langue vous souhaitez utiliser BSB-LAN et envoyez le fichier enregistré à bsb(ät)code-it.de.\r\nNous faisons de notre mieux pour créer une liste de paramètres spécifique à l'appareil et Renvoyez-le-nous dès que possible, mais après tout, il s'agit d'un projet de loisir, alors soyez indulgents avec nous.<BR><B>Ce processus ne doit généralement être effectué qu'une seule fois (et non à chaque mise à jour de BSB-LAN) ! </B><BR><BR>Alternativement, vous pouvez trouver le fichier BSB_LAN_custom_defs.h qui était utilisé dans les versions précédentes de BSB-LAN dans la version 2.2. Cependant, étant donné que cette liste de paramètres manque des centaines de paramètres provenant d'appareils plus récents et contient. beaucoup d'ambiguïtés et parfois aussi d'erreurs, son utilisation est <B>déconseillée</B> et ne doit se faire qu'après avoir soigneusement examiné les paramètres que vous souhaitez utiliser.<BR>";
+UIStrings["MENU_TEXT_QIN"] = "Afin de créer une liste de paramètres spécifiques à l'appareil, veuillez cliquer sur 'Télécharger' ci-dessous.<BR>Si plusieurs contrôleurs sont connectés via LPB, vous <B>devez</B> connecter BSB-LAN via LPB, aussi, afin d'obtenir tous les paramètres de tous les appareils connectés !<BR>La création de ce fichier peut prendre plusieurs minutes et peut sembler caler surtout au début, <B>soyez patient !</B> \r\n <BR>Ensuite, indiquez-nous dans quelle langue vous souhaitez utiliser BSB-LAN et envoyez le fichier enregistré à bsb(ät)code-it.de <B>en indiquant la langue souhaitée</B>.\r\nNous faisons de notre mieux pour créer une liste de paramètres spécifique à l'appareil et Renvoyez-le-nous dès que possible, mais après tout, il s'agit d'un projet de loisir, alors soyez indulgents avec nous.<BR><B>Ce processus ne doit généralement être effectué qu'une seule fois (et non à chaque mise à jour de BSB-LAN) ! </B><BR><BR>Alternativement, vous pouvez trouver le fichier BSB_LAN_custom_defs.h qui était utilisé dans les versions précédentes de BSB-LAN dans la version 2.2. Cependant, étant donné que cette liste de paramètres manque des centaines de paramètres provenant d'appareils plus récents et contient. beaucoup d'ambiguïtés et parfois aussi d'erreurs, son utilisation est <B>déconseillée</B> et ne doit se faire qu'après avoir soigneusement examiné les paramètres que vous souhaitez utiliser.<BR>";
 UIStrings["MENU_TEXT_QDL"] = "Télécharger";
 UIStrings["MENU_TEXT_QSC"] = "Recherche de périphériques...";
 UIStrings["MENU_TEXT_QRT"] = "Tester l’adresse de l’appareil";
@@ -109,6 +109,7 @@ UIStrings["MENU_TEXT_BYT"] = "Octets";
 
 UIStrings["STR_24A_TEXT"] = "Moyenne 24h";
 UIStrings["S_ERROR"] = "Message d'erreur actuel";
+UIStrings["S_ERRPRIO"] = "Priorité d'erreur";
 UIStrings["S_MAINT"] = "Signalisation de maintenance actuel";
 
 UIStrings["ENUM_CAT_00_TEXT"] = "Heure";
@@ -586,6 +587,7 @@ UIStrings["CF_MQTT_USERNAME_TEXT"] = "Nom d’utilisateur";
 UIStrings["CF_MQTT_PASSWORD_TEXT"] = "Mot de passe";
 UIStrings["CF_MQTT_TOPIC_TEXT"] = "Préfixe de topic";
 UIStrings["CF_MQTT_DEVICE_TEXT"] = "ID de l’appareil";
+UIStrings["CT_MQTT_REF_AD_TEXT"] = "Actualiser la détection automatique";
 UIStrings["CF_LOG_DEST_TEXT"] = "Destination de stockage";
 UIStrings["CF_LOGMODE_TEXT"] = "Mode de journalisation";
 UIStrings["CF_CHECKUPDATE_TEXT"] = "Vérifier les mises à jour";
