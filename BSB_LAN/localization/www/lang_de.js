@@ -20,7 +20,6 @@ UIStrings["UNIT_GRADIENT_TEXT"] = "min/K";
 UIStrings["UNIT_GRADIENTKS_TEXT"] = "K/s";
 UIStrings["UNIT_INTEGRAL_TEXT"] = "Kmin";
 UIStrings["UNIT_TEMP_PER_MIN_TEXT"] = "°C/min";
-UIStrings["UNIT_TEMP_PER_HOUR_TEXT"] = "°C/h";
 UIStrings["UNIT_CEL_MIN_TEXT"] = "°Cmin";
 UIStrings["UNIT_LITER_TEXT"] = "l";
 UIStrings["UNIT_AMP_TEXT"] = "A";
@@ -114,7 +113,7 @@ UIStrings["MENU_TEXT_LGI"] = "Neues Logging-Intervall";
 UIStrings["MENU_TEXT_LGN"] = "Neue Logging-Parameter";
 UIStrings["MENU_TEXT_NOQ"] = "Die Erstellung der reglerspezifischen Parameterliste wird nur bei BSB- und LPB-Systemen unterstützt.<BR>Für PPS-Geräte kann direkt die entsprechende Kategorie verwendet werden.\r\n";
 UIStrings["MENU_TEXT_QNC"] = "BSB-LAN kann keine Verbindung zum Heizungs-Regler aufbauen. Bitte sicherstellen, dass der Adapter mit dem Regler verbunden ist und die Heizung angeschaltet ist. Dann BSB-LAN neu starten, um die Verbindung herzustellen.";
-UIStrings["MENU_TEXT_QIN"] = "Zur Erstellung der reglerspezifischen Parameterliste bitte unten auf 'Download' klicken.<BR>Wenn mehrere Regler im LPB-Verbund vorhanden sind, dann diesen Abruf <B>nur dann durchführen</B>, wenn auch BSB-LAN über LPB angeschlossen ist!<BR>Die Erstellung kann mehrere Minuten dauern und gerade am Anfang auch vermeintlich pausieren - <B>bitte warten!</B> \r\n<BR>Danach die ausgegebene Datei an bsb(ät)code-it.de <B>unter Angabe der gewünschten Sprache</B> schicken.\r\nWir können daraus dann die passende Datei 'BSB_LAN_custom_defs.h' erstellen und bemühen uns, diese dann zeitnah zurück zu schicken.<BR><B>Dieser Prozess muss i.d.R. nur einmal (und nicht bei jedem BSB-LAN Update) gemacht werden!</B><BR><BR>Alternativ kann die Datei 'BSB_LAN_custom_defs.h', die in den vorherigen Versionen verwendet wurde, als Teil der Release-Version 2.2 heruntergeladen werden. Den früheren allgemeinen Parameterlisten fehlen jedoch Hunderte von Parametern - insbesondere von neueren Reglern. Darüber hinaus beinhalten sie eine Vielzahl von Ungenauigkeiten und teilweise auch Fehlern, weswegen wir den Einsatz dieser früheren Parameterliste ausdrücklich <B>nicht mehr empfehlen!</B><BR>";
+UIStrings["MENU_TEXT_QIN"] = "Zur Erstellung der reglerspezifischen Parameterliste bitte unten auf 'Download' klicken.<BR>Wenn mehrere Regler im LPB-Verbund vorhanden sind, dann diesen Abruf <B>nur dann durchführen</B>, wenn auch BSB-LAN über LPB angeschlossen ist!<BR>Die Erstellung kann mehrere Minuten dauern und gerade am Anfang auch vermeintlich pausieren - <B>bitte warten!</B> \r\n<BR>Danach die ausgegebene Datei an bsb(ät)code-it.de schicken.\r\nWir können daraus dann die passende Datei 'BSB_LAN_custom_defs.h' erstellen und bemühen uns, diese dann zeitnah zurück zu schicken.<BR><B>Dieser Prozess muss i.d.R. nur einmal (und nicht bei jedem BSB-LAN Update) gemacht werden!</B><BR><BR>Alternativ kann die Datei 'BSB_LAN_custom_defs.h', die in den vorherigen Versionen verwendet wurde, als Teil der Release-Version 2.2 heruntergeladen werden. Den früheren allgemeinen Parameterlisten fehlen jedoch Hunderte von Parametern - insbesondere von neueren Reglern. Darüber hinaus beinhalten sie eine Vielzahl von Ungenauigkeiten und teilweise auch Fehlern, weswegen wir den Einsatz dieser früheren Parameterliste ausdrücklich <B>nicht mehr empfehlen!</B><BR>";
 UIStrings["MENU_TEXT_QDL"] = "Download";
 UIStrings["MENU_TEXT_QSC"] = "Scanne nach Geräten";
 UIStrings["MENU_TEXT_QFD"] = "Geräteadresse gefunden";
@@ -144,7 +143,6 @@ UIStrings["MENU_TEXT_CNV"] = "Kategorie nicht für dieses Zielgerät verfügbar.
 
 UIStrings["STR_24A_TEXT"] = "24h Durchschnittswert";
 UIStrings["S_ERROR"] = "Aktueller Fehlercode";
-UIStrings["S_ERRPRIO"] = "Fehlerpriorität";
 UIStrings["S_MAINT"] = "Aktueller Wartungscode";
 
 //WEBCONFIG
@@ -183,7 +181,6 @@ UIStrings["CF_MQTT_PASSWORD_TEXT"] = "Passwort";
 UIStrings["CF_MQTT_TOPIC_TEXT"] = "Topic Präfix";
 UIStrings["CF_MQTT_DEVICE_TEXT"] = "Geräte ID";
 UIStrings["CF_MQTT_UNITS_TEXT"] = "Einheiten";
-UIStrings["CF_MQTT_REF_AD_TEXT"] = "Auto-Discovery erneuern";
 UIStrings["CF_LOG_DEST_TEXT"] = "Speicherziel";
 UIStrings["CF_LOGMODE_TEXT"] = "Log-Modus";
 UIStrings["CF_CHECKUPDATE_TEXT"] = "Auf Updates überprüfen";
@@ -219,7 +216,7 @@ UIStrings["STR10200_TEXT"] = "Unknown command";
 
 UIStrings["STR15000_TEXT"] = "Betriebsart";
 UIStrings["STR15001_TEXT"] = "Präsenztaste";
-UIStrings["STR15002_TEXT"] = "Position Temperatur-Drehknopf";
+UIStrings["STR15002_TEXT"] = "Position Drehknopf";
 UIStrings["STR15003_TEXT"] = "Verbleibende Ferientage";
 UIStrings["STR15004_TEXT"] = "Komfortsollwert";
 UIStrings["STR15005_TEXT"] = "Reduziertsollwert";

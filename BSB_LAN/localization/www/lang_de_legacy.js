@@ -3396,9 +3396,6 @@ UIStrings["ENUM_INTCODE_03_26_TEXT"] = "Alarm contact input H5";
 UIStrings["ENUM_INTCODE_03_27_TEXT"] = "Alarm contact input H6";
 UIStrings["ENUM_INTCODE_03_28_TEXT"] = "Alarm contact input H7";
 
-UIStrings["ENUM_SONDERBETRIEB_01_2e_TEXT"] = "STB-Test";
-UIStrings["ENUM_SONDERBETRIEB_01_36_TEXT"] = "Alternativenergie";
-
 UIStrings["ENUM_SWCODE_11_TEXT"] = "STB Unterbruch";
 UIStrings["ENUM_SWCODE_53_TEXT"] = "Erlaubtes Drehzahlband für Zündlast wurde bei Inbetriebsetzung nicht erreicht.";
 UIStrings["ENUM_SWCODE_5f_TEXT"] = "Drehzahlnachstellung überprüfen, vorgeschriebenes Band wird nicht erreicht.";
